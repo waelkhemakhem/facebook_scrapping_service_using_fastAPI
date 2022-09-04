@@ -36,11 +36,11 @@ This is a quick guide for using the API routes that are made in the script:
 
 /scrap/ : This route is used for scraping data from Facebook and storing it in the database, please give it the following arguments:
 
--page : page_id or page_name
+- page : page_id or page_name
 
--limit (optional, default=2): limit the number of pages of posts to scrape from that page (preferably limit >1 because a lower value might give no results depending on the page)
+- limit (optional, default=2): limit the number of pages of posts to scrape from that page (preferably limit >1 because a lower value might give no results depending on the page)
 
--save (optional, default=False): if True, the scraped posts would be saved in the database, otherwise they would be just shown on the screen.
+- save (optional, default=False): if True, the scraped posts would be saved in the database, otherwise they would be just shown on the screen.
 
 /post/ : This is used to retrieve a post from the database using its post_id. Only needed argument is post_id
 
